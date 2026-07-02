@@ -1,0 +1,17 @@
+
+mkdir smth - makes a new folder
+touch smth - makes a new file
+cd smth - takes inside the folder
+cat smth - views the file 
+ls - lists files inside the folder
+cd .. - go one folder back 
+vi smth - edit the file
+to not save file press esc -> : -> qa!
+to save file press esc -> : -> wqa!
+start smth - to open and run file
+pwd - list out current directry
+git log - list out the log of the rep
+git add smth - adds git files for next commit
+git rm --cached smth - remove file data 
+git commit -m "message here" - commits to server
+o
