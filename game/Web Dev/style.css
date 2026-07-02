@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+.sections{
+    border : 1px black;
+    border-style: solid;
+    width: 100%;
+}
+#testarea{
+    height :60%;
+}
+#projectlinks{
+    background-color: aqua;
+    height : 40%;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.wrapper{
+    height : 500px;
+    width : 100%;
+}
+
+#projectslinks
+{
+    padding : 10px;
+}

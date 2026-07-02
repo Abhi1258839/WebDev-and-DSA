@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-image : url(./Images/bg.jpg);
+            background-attachment : scroll;
+            background-size : cover;
+            width : 100vw;
+            height : 100vh;
+            display : flex;
+            justify-content : center;
+            align-items : center;
+
+
+        }
+        .container{
+            width : 50%;
+            height : 70%;
+            background-color : rgba(105, 105, 105, 0.226);
+            border-radius : 30px;
+            gap : 30px;
+            backdrop-filter : blur(1px);
+            display : flex;
+            justify-content : center;
+            align-items : center;
+            flex-direction : column;
+
+
+        }
+        .input-group{
+            width : 50%;
+            display : flex;
+            flex-direction : column;
+            gap : 20px;
+
+        }
+        .checkbox-group{
+            width : 50%;
+            display : flex;
+            justify-content : space-between;
+            
+        }
+        form{
+            width : 100%;
+            display : flex;
+            justify-content : center;
+            align-items : center;
+            flex-direction : column;
+            gap : 30px;
+        }
+        h1{
+            font-size : 80px;
+        }
+        #email{
+            padding : 20px;
+            border: none;
+            border-radius : 10px;
+            font-size : 20px;
+        
+            
+        }
+        #password{
+            padding : 20px;
+            border: none;
+            border-radius : 10px;
+            font-size : 20px;
+        }
+        button{
+            cursor : pointer;
+            padding : 20px 40px;
+            border: none;
+            border-radius : 10px;
+            font-size : 20px;
+            background: linear-gradient(45deg, rgb(128, 115, 115), pink);
+        }
+        
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <form action="./index.html">
+            <div class="input-group">
+                <input type="email" placeholder="Enter your email" name="email" id = "email" required>
+                <input type="password" placeholder="Type your password" name="password" id = "password" required>
+            </div>
+            <div class="checkbox-group">
+                <div>
+                    <input type="checkbox" name="remember" id = "remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <span >
+                    Forgot Password?
+                </span>
+            </div>
+            <button type="submit">Login</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
