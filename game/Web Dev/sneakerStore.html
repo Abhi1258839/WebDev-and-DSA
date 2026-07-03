@@ -4,6 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sneaker Store</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width : 100vw;
+            height : 100vh;
+            overflow-x : hidden;
+
+        }
+        .store{
+            margin :auto;
+            width : 60%;
+            min-height : 100%;
+        }
+        h1{
+            font-size : 50px;
+            text-align : center;
+            padding : 20px;
+        }
+
+        .shoes{
+            display : flex;
+            flex-wrap : wrap;
+            width : 100%;
+            height : 100%;
+            justify-content : space-between;
+
+        }
+
+        .card{
+            border-radius : 30px;
+            width : 30%;
+            min-height : 520px;
+            padding : 10px;
+            box-shadow : 7px 7px 10px rgb(201,201,201);
+            margin-bottom : 30px;
+
+        }
+
+        .image >img{
+            border-radius : 30px;
+            width : 100%;
+            height : 100%;
+            object-fit : cover;
+        }
+        .image{
+            width : 100%;
+            height : 70%;
+            overflow : hidden;
+            border-radius : 30px;
+        }
+
+        .details{
+            display : flex;
+            justify-content : space-between;
+            align-items : center;
+            padding : 30px 10px 0px;
+        }
+        .description{
+            display : flex;
+            flex-direction : column;
+            gap : 8px;
+        }
+        .cart > img{
+            width : 40px;
+            height : 40px;
+        }
+        .image > img:hover{
+            scale : 1.2;
+            transition : 0.4s all ease-in;
+        }
+
+
+    </style>
 </head>
 <body>
     <div class="container">
@@ -11,14 +88,204 @@
             <h1>Sneaker Store</h1>
             <div class = "shoes">
                 <div class="card">
-                    <div>
-                        <img src ="" alt = "">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 1.jpeg" alt = "">
                     </div>
                     <div class = "details">
-                        
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Men's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹4000</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
 
                     </div>
                 </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 2.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Women's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹4200</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 3.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Men's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹5700</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 4.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Men's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹4000</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 5.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Women's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹4500</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 6.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Women's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹5000</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 7.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Men's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹4000</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 8.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Men's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹4000</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 9.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Men's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹4000</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 10.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Men's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹4000</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="card">
+                    <div class = "image">
+                        <img src ="./Images/sneaker 11.jpeg" alt = "">
+                    </div>
+                    <div class = "details">
+                        <div class="description">
+                            <p>Air Jordan 1 Mid</p>
+                            <p>Men's shoes</p>
+                            <p>3 colours</p>
+                            <p>MRP: ₹4000</p>
+                        </div>
+
+                        <div class="cart">
+                            <img src ="./Images/Shopping Cart.png" alt = "">
+                        </div>
+
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
